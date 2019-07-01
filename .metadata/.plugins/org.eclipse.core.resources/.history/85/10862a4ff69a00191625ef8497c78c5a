@@ -1,0 +1,13 @@
+package com.infotech.client;
+
+public class ConcurrencyProblem implements Runnable {
+	public static void main(String[] args) {
+
+		final ConcurrencyProblem cp = new ConcurrencyProblem();
+		Thread a = new Thread(cp);
+		public void run()
+		{
+			
+		}
+	}
+}

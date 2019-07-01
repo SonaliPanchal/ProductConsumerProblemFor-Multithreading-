@@ -1,0 +1,8 @@
+package org.infotech.com;
+
+public class ProduceAndConsumerTest 
+{
+public static void main(String[] args) {
+	
+}
+}

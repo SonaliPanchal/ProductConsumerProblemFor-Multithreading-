@@ -1,0 +1,14 @@
+package org.infotech.com;
+
+import java.util.Queue;
+
+public class Producer implements Runnable {
+	private Queue<Integer> sharedQueue;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

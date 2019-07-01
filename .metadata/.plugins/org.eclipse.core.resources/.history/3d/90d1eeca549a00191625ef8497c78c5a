@@ -1,0 +1,24 @@
+package com.runnable.sonali;
+
+public class MyThread implements Runnable {
+
+	@Override
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			
+			System.out.println(Thread.currentThread()+"   i"+i);
+		}
+		
+	}
+
+}
+class sonali
+{
+	public static void main(String[] args) {
+		MyThread m1 = new MyThread();
+		MyThread m2 = new MyThread();
+		Thread t1 = new Thread(m1);
+		Thread t2 = new Thread(m2);
+		
+	}
+}

@@ -1,0 +1,17 @@
+package com.test;
+
+public class TestDeadlockExample1 {
+	public static void main(String[] args) {
+		final String resource1 = "Sonali Panchal";
+		final String resource2="Shivangi Patidar";
+		Thread t1 = new Thread()
+		{
+			public void run()
+			{
+				
+			}
+		};
+		
+	}
+
+}

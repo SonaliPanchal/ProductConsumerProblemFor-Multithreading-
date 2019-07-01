@@ -1,0 +1,12 @@
+package org.infotech.com;
+
+public class Consumer implements Runnable {
+
+	private Que
+	
+	public void run() {
+		
+
+	}
+
+}

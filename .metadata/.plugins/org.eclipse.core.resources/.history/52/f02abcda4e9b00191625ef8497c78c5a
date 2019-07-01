@@ -1,0 +1,13 @@
+package org.infotech.com;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class ProduceAndConsumerTest 
+{
+public static void main(String[] args) {
+	private Queue<Integer> sharedQueue = new LinkedList<>();
+	Producer producer = new Producer(null);
+	
+}
+}

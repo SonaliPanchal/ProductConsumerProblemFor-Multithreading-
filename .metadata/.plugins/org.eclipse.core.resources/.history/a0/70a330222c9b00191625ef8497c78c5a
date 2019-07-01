@@ -1,0 +1,11 @@
+package com.infotech.client;
+
+public class Table {
+
+	void printTable()
+	{
+		for (int i = 0; i <5; i++) {
+			
+		}
+	}
+}

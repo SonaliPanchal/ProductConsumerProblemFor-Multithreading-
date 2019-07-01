@@ -1,0 +1,15 @@
+package com.infotech.client;
+
+public class ConcurrencyProblem {
+	public static void main(String[] args) {
+
+		final ConcurrencyProblem cp = new ConcurrencyProblem();
+		Thread a = new Thread("A")
+				{
+			
+				};
+		
+	}
+
+	
+}
